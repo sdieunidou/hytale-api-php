@@ -1,5 +1,5 @@
 {
-    "name": "jules/hytale-api-client",
+    "name": "sdieunidou/hytale-api-client",
     "description": "A modern PHP client for the Hytale API.",
     "type": "library",
     "license": "MIT",
