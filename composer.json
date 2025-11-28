@@ -1,0 +1,30 @@
+{
+    "name": "jules/hytale-api-client",
+    "description": "A modern PHP client for the Hytale API.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Hytale\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Hytale\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": "^8.3",
+        "guzzlehttp/guzzle": "^7.8",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.0"
+    },
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    }
+}
